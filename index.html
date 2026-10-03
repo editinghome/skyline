@@ -1,1 +1,422 @@
-# skyline
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malik Mumbai New 👑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2014926572508859');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2014926572508859&ev=PageView&noscript=1" alt=""/></noscript>
+
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:100%;min-height:100vh;overflow-x:hidden;}
+
+body{
+  font-family:'Manrope',sans-serif;
+  background: radial-gradient(ellipse at 18% 18%, #1a0a2e 0%, #0d0618 40%, #060010 100%);
+  color:#fff;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:90px;
+}
+
+/* ── Trust Bar ── */
+.trust-bar{
+  background:rgba(168,85,247,0.08);
+  border-bottom:1px solid rgba(168,85,247,0.18);
+  padding:9px 16px;
+  text-align:center;
+  font-size:12px;font-weight:600;
+  color:rgba(255,255,255,0.75);
+  letter-spacing:0.3px;
+  line-height:1.6;
+}
+
+/* ── Page ── */
+.page{
+  max-width:480px;
+  margin:0 auto;
+  padding:28px 18px 32px;
+}
+
+/* ── FOMO Pill ── */
+.fomo-wrap{margin-bottom:18px;text-align:center;}
+.fomo-pill{
+  display:inline-block;
+  background:linear-gradient(90deg,rgba(168,85,247,0.18),rgba(124,58,237,0.22));
+  border:1px solid rgba(168,85,247,0.35);
+  border-radius:50px;
+  padding:7px 18px;
+  font-size:13px;font-weight:700;
+  color:#c084fc;
+  letter-spacing:0.3px;
+}
+.fomo-sub{
+  font-size:12px;
+  color:rgba(192,132,252,0.65);
+  margin-top:6px;
+  font-weight:500;
+}
+
+/* ── Hero ── */
+.hero{text-align:center;margin-bottom:26px;}
+.shimmer-line{
+  height:2px;
+  background:linear-gradient(90deg,transparent,#a855f7,transparent);
+  border-radius:2px;
+  margin-bottom:22px;
+  animation:shimmerLine 2.5s ease-in-out infinite;
+}
+@keyframes shimmerLine{0%{opacity:0.4}50%{opacity:1}100%{opacity:0.4}}
+
+.avatar-wrap{margin-bottom:16px;}
+.avatar{
+  width:90px;height:90px;
+  border-radius:50%;margin:0 auto;
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+  border:3px solid rgba(168,85,247,0.4);
+  box-shadow:0 0 0 5px rgba(168,85,247,0.12),0 8px 32px rgba(0,0,0,0.4);
+  display:flex;align-items:center;justify-content:center;
+  font-size:38px;
+}
+
+.sport-badges{
+  display:flex;justify-content:center;gap:8px;
+  margin-bottom:14px;flex-wrap:wrap;
+}
+.sport-badge{
+  background:rgba(168,85,247,0.1);
+  border:1px solid rgba(168,85,247,0.25);
+  border-radius:20px;
+  padding:5px 14px;
+  font-size:12px;font-weight:700;
+  color:#c084fc;
+  letter-spacing:0.3px;
+}
+
+h1{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:42px;line-height:1.1;
+  background:linear-gradient(135deg,#ffffff 0%,#d8b4fe 50%,#a855f7 100%);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+  margin-bottom:12px;
+  letter-spacing:1px;
+}
+.hero-value{
+  font-size:14px;color:rgba(255,255,255,0.78);
+  line-height:1.65;margin-bottom:18px;
+  font-weight:500;
+}
+
+/* Social Proof */
+.proof-row{
+  display:flex;align-items:center;justify-content:center;
+  gap:10px;margin-bottom:22px;
+}
+.proof-faces{display:flex;}
+.proof-faces span{
+  width:28px;height:28px;border-radius:50%;
+  border:2px solid #060010;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+  margin-left:-8px;
+}
+.proof-faces span:first-child{margin-left:0;}
+.proof-text{font-size:13px;font-weight:600;color:rgba(255,255,255,0.85);}
+.proof-sub{font-size:11px;color:rgba(192,132,252,0.6);display:block;margin-top:1px;}
+
+/* Top CTA */
+.cta-top{
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+  color:#fff;
+  text-decoration:none;
+  padding:15px 36px;border-radius:50px;
+  font-weight:700;font-size:16px;
+  box-shadow:0 8px 30px rgba(168,85,247,0.45);
+  position:relative;overflow:hidden;
+  transition:transform 0.25s ease,box-shadow 0.25s ease;
+  margin-bottom:6px;
+}
+.cta-top::after{
+  content:'';position:absolute;
+  top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);
+  animation:btnShine 3s ease-in-out infinite;
+}
+@keyframes btnShine{0%{left:-100%}100%{left:100%}}
+.cta-top:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(168,85,247,0.6);}
+.cta-line1{font-size:16px;font-weight:700;}
+.cta-line2{font-size:12px;font-weight:500;opacity:0.82;}
+
+.seats-note{
+  font-size:11px;color:rgba(255,255,255,0.45);
+  display:flex;align-items:center;justify-content:center;gap:5px;
+  margin-top:4px;
+}
+.blink-dot{
+  width:7px;height:7px;border-radius:50%;
+  background:#ff4444;
+  animation:blink 1.2s ease-in-out infinite;
+  flex-shrink:0;
+}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.2}}
+
+/* Divider */
+.section-divider{
+  display:flex;align-items:center;gap:12px;
+  margin:28px 0;
+  color:rgba(255,255,255,0.25);font-size:12px;font-weight:600;
+  letter-spacing:1px;text-transform:uppercase;
+}
+.section-divider::before,.section-divider::after{
+  content:'';flex:1;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(168,85,247,0.2),transparent);
+}
+
+/* Identity Card */
+.identity-card{
+  background:rgba(168,85,247,0.05);
+  border:1px solid rgba(168,85,247,0.15);
+  border-radius:18px;
+  padding:20px;text-align:center;
+  margin-bottom:16px;
+}
+.identity-icon{font-size:36px;margin-bottom:10px;}
+.identity-name{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:26px;
+  background:linear-gradient(135deg,#fff,#c084fc);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  letter-spacing:0.5px;margin-bottom:6px;
+}
+.identity-sub{font-size:13px;color:rgba(255,255,255,0.6);line-height:1.6;}
+
+/* Stats Grid */
+.stats-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:10px;margin-bottom:16px;
+}
+.stat-box{
+  background:rgba(168,85,247,0.07);
+  border:1px solid rgba(168,85,247,0.15);
+  border-radius:14px;
+  padding:14px 8px;text-align:center;
+}
+.stat-num{
+  font-family:'Bebas Neue',sans-serif;
+  font-size:28px;
+  background:linear-gradient(135deg,#fff,#c084fc);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  line-height:1;margin-bottom:4px;
+}
+.stat-label{font-size:11px;font-weight:600;color:rgba(255,255,255,0.55);line-height:1.4;}
+
+/* Benefits */
+.benefits{display:flex;flex-direction:column;gap:10px;margin-bottom:16px;}
+.benefit{
+  display:flex;align-items:flex-start;gap:14px;
+  background:rgba(168,85,247,0.05);
+  border:1px solid rgba(168,85,247,0.12);
+  border-radius:14px;
+  padding:14px 16px;
+}
+.benefit-icon{font-size:22px;flex-shrink:0;width:30px;text-align:center;padding-top:2px;}
+.benefit-title{font-size:14px;font-weight:700;color:#fff;line-height:1.3;margin-bottom:4px;}
+.benefit-desc{font-size:12px;color:rgba(255,255,255,0.55);line-height:1.6;}
+
+/* Urgency Banner */
+.urgency{
+  background:linear-gradient(135deg,rgba(124,58,237,0.18),rgba(80,30,160,0.22));
+  border:1px solid rgba(168,85,247,0.2);
+  border-radius:14px;
+  padding:14px 18px;text-align:center;
+  margin-bottom:16px;
+}
+.urgency-text{font-size:13px;font-weight:700;color:#c084fc;line-height:1.6;}
+
+/* Disclaimer */
+.disclaimer{
+  font-size:11px;color:rgba(255,255,255,0.28);
+  text-align:center;line-height:1.5;
+}
+
+/* ── Sticky Bottom CTA ── */
+.sticky-cta{
+  position:fixed;bottom:0;left:0;right:0;
+  background:rgba(6,0,16,0.93);
+  backdrop-filter:red(16px);-webkit-backdrop-filter:red(16px);
+  border-top:1px solid rgba(168,85,247,0.18);
+  padding:12px 20px;
+  z-index:999;
+  display:flex;align-items:center;justify-content:center;gap:10px;
+}
+.sticky-seats{
+  display:flex;align-items:center;gap:5px;
+  font-size:11px;color:rgba(255,255,255,0.45);
+  white-space:nowrap;
+}
+a#cta-btn{
+  display:flex;flex-direction:column;align-items:center;gap:2px;
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+  color:#fff;text-decoration:none;
+  padding:12px 28px;border-radius:50px;
+  font-weight:700;font-size:15px;
+  box-shadow:0 6px 22px rgba(168,85,247,0.4);
+  position:relative;overflow:hidden;
+  transition:transform 0.25s ease;
+  flex:1;max-width:320px;text-align:center;
+}
+a#cta-btn::after{
+  content:'';position:absolute;
+  top:0;left:-100%;width:100%;height:100%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.15),transparent);
+  animation:btnShine 3s ease-in-out infinite;
+}
+a#cta-btn:hover{transform:translateY(-1px);}
+.btn-l1{font-size:15px;font-weight:700;}
+.btn-l2{font-size:11px;font-weight:500;opacity:0.82;}
+</style>
+</head>
+<body>
+
+<!-- Trust Bar -->
+<div class="trust-bar">
+  🚨 Yeh Invite Link Limited Time Ke Liye Hai · Miss Kiya Toh Dobara Nahi Milega 👑
+</div>
+
+<div class="page">
+
+  <!-- FOMO Pill -->
+  <div class="fomo-wrap">
+    <span class="fomo-pill">🚨 Link Dobara Nahi Milega — Abhi Join Karo</span>
+    <div class="fomo-sub">Yeh invite link sirf thodi der ke liye hai — kal mat bolna 🔥</div>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="shimmer-line"></div>
+    <div class="avatar-wrap">
+      <div class="avatar">👑</div>
+    </div>
+
+    <div class="sport-badges">
+      <span class="sport-badge">🏆 IPL</span>
+      <span class="sport-badge">🌍 T20 World Cup</span>
+      <span class="sport-badge">📋 Test Match</span>
+    </div>
+
+    <h1>MALIK MUMBAI New</h1>
+
+    <p class="hero-value">Har match se pehle — Toss prediction, pitch report, playing XI aur match winner — sab kuch ready milega. Bas channel join karo aur khelo smart! 🏏</p>
+
+    <!-- Social Proof -->
+    <div class="proof-row">
+      <div class="proof-faces">
+        <span>👤</span><span>👤</span><span>👤</span><span>👤</span><span>👤</span>
+      </div>
+      <div class="proof-text">
+        66,000+ Members
+        <span class="proof-sub">Hazaron log roz trust karte hain 💪</span>
+      </div>
+    </div>
+
+    <!-- Top CTA -->
+    <a href="https://t.me/+JTrmHHtTLi9hOWU1" class="cta-top" id="cta-btn-top">
+      <span class="cta-line1">👑 Abhi Join Karo — Link Dobara Nahi Milega</span>
+      <span class="cta-line2">⚠️ Yeh link band ho sakta hai — abhi click karo</span>
+    </a>
+    <div class="seats-note">
+      <span class="blink-dot"></span>
+      Link sirf thodi der ke liye hai — miss mat karna
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="section-divider">Kyun Join Karein</div>
+
+  <!-- Identity Card -->
+  <div class="identity-card">
+    <div class="identity-icon">🔮</div>
+    <div class="identity-name">MALIK MUMBAI New</div>
+    <div class="identity-sub">Mumbai ka Sabse Bada Cricket Expert · IPL Specialist · Har Format Covered 🏏</div>
+  </div>
+
+  <!-- Stats Grid -->
+  <div class="stats-grid">
+    <div class="stat-box">
+      <div class="stat-num">50K+</div>
+      <div class="stat-label">Members<br>Join Kar Chuke</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">IPL+</div>
+      <div class="stat-label">Sabhi<br>Formats</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">Daily</div>
+      <div class="stat-label">Roz Naye<br>Picks</div>
+    </div>
+  </div>
+
+  <!-- Benefits -->
+  <div class="benefits">
+    <div class="benefit">
+      <div class="benefit-icon">🎯</div>
+      <div class="benefit-body">
+        <div class="benefit-title">Toss & Pitch Report — Match Se Pehle</div>
+        <div class="benefit-desc">Har match se pehle toss prediction, pitch conditions aur weather report milegi. Koi andaza nahi — pure data pe khelo.</div>
+      </div>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">📊</div>
+      <div class="benefit-body">
+        <div class="benefit-title">Player Form & Playing XI Analysis</div>
+        <div class="benefit-desc">Kaun khelega, kaun form mein hai, injury update — sab kuch pehle se pata chalega. Smart prediction = smart win.</div>
+      </div>
+    </div>
+    <div class="benefit">
+      <div class="benefit-icon">🏆</div>
+      <div class="benefit-body">
+        <div class="benefit-title">IPL · T20 · ODI · Test — Sab Cover</div>
+        <div class="benefit-desc">India ho ya Australia, IPL ho ya World Cup — Malik Mumbai ka prediction har jagah kaam aata hai. Ek channel, sabka ilaj! 💪</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Urgency Banner -->
+  <div class="urgency">
+    <div class="urgency-text">🚨 Yeh invite link kab band ho jaye — kuch pata nahi<br><span style="font-size:12px;font-weight:500;opacity:0.82;">Abhi join karo — dobara link maangoge toh nahi milega ⚠️</span></div>
+  </div>
+
+  <!-- Disclaimer -->
+  <p class="disclaimer">Yeh sirf entertainment aur information ke liye hai. Responsible rehna dosto.</p>
+
+</div>
+
+<!-- Sticky Bottom CTA -->
+<div class="sticky-cta">
+  <div class="sticky-seats">
+    <span class="blink-dot"></span> Limited
+  </div>
+  <a href="https://t.me/+JTrmHHtTLi9hOWU1" id="cta-btn">
+    <span class="btn-l1">👑 Abhi Join Karo — Link Dobara Nahi Milega</span>
+    <span class="btn-l2">⚠️ Yeh link band ho sakta hai — miss mat karna</span>
+  </a>
+</div>
+</script>
+</body>
+</html>
+
+</body>
+
+</html>
